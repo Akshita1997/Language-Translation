@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.rkrmills.miwok.MainActivity">
+
+    <!-- Numbers category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers">
+
+        <TextView
+            android:id="@+id/numbers"
+            android:background="?android:attr/selectableItemBackground"
+            style="@style/category_style"
+            android:text="Numbers" />
+    </FrameLayout>
+
+    <!-- Family category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            android:id="@+id/family"
+            style="@style/category_style"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Family Members" />
+
+    </FrameLayout>
+
+    <!-- Colors category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_colors">
+
+        <TextView
+            android:id="@+id/colors"
+            android:background="?android:attr/selectableItemBackground"
+            style="@style/category_style"
+            android:text="Colors" />
+
+    </FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_phrases">
+
+        <TextView
+            android:id="@+id/phrases"
+            android:background="?android:attr/selectableItemBackground"
+            style="@style/category_style"
+            android:text="Phrases" />
+
+    </FrameLayout>
+</LinearLayout>
